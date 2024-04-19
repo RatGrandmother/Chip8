@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/Chip8/include/fileio.h
+stdio.h
+-
+stdlib.h
+-
+
+/workspaces/Chip8/src/main.c
+stdio.h
+-
+stdlib.h
+-
+../include/fileio.h
+/workspaces/Chip8/include/fileio.h
+

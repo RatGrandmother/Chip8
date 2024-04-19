@@ -5,6 +5,7 @@ set(SOURCES
     src/main.c
     src/instructions.c
     src/memory.c
+    src/parser.c
 )
 
 add_executable(chip8 ${SOURCES})

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/workspaces/Chip8/src/instructions.c" "/workspaces/Chip8/build/CMakeFiles/chip8.dir/src/instructions.c.o"
   "/workspaces/Chip8/src/main.c" "/workspaces/Chip8/build/CMakeFiles/chip8.dir/src/main.c.o"
   "/workspaces/Chip8/src/memory.c" "/workspaces/Chip8/build/CMakeFiles/chip8.dir/src/memory.c.o"
+  "/workspaces/Chip8/src/parser.c" "/workspaces/Chip8/build/CMakeFiles/chip8.dir/src/parser.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

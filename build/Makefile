@@ -204,6 +204,33 @@ src/memory.c.s:
 	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/memory.c.s
 .PHONY : src/memory.c.s
 
+src/parser.o: src/parser.c.o
+
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.c.o:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/parser.c.o
+.PHONY : src/parser.c.o
+
+src/parser.i: src/parser.c.i
+
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.c.i:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/parser.c.i
+.PHONY : src/parser.c.i
+
+src/parser.s: src/parser.c.s
+
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.c.s:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/parser.c.s
+.PHONY : src/parser.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... src/memory.o"
 	@echo "... src/memory.i"
 	@echo "... src/memory.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
 .PHONY : help
 
 

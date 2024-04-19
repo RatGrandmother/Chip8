@@ -74,12 +74,12 @@ clean: CMakeFiles/chip8.dir/clean
 CMakeFiles/chip8.dir/all:
 	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/depend
 	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Chip8/build/CMakeFiles --progress-num=1,2,3,4 "Built target chip8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Chip8/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target chip8"
 .PHONY : CMakeFiles/chip8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chip8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chip8/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chip8/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chip8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chip8/build/CMakeFiles 0
 .PHONY : CMakeFiles/chip8.dir/rule

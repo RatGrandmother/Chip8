@@ -1,1 +1,1 @@
-/usr/bin/gcc -g   CMakeFiles/chip8.dir/src/main.c.o CMakeFiles/chip8.dir/src/instructions.c.o CMakeFiles/chip8.dir/src/memory.c.o  -o chip8 
+/usr/bin/gcc -g   CMakeFiles/chip8.dir/src/main.c.o CMakeFiles/chip8.dir/src/instructions.c.o CMakeFiles/chip8.dir/src/memory.c.o CMakeFiles/chip8.dir/src/parser.c.o  -o chip8 

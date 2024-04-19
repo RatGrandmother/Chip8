@@ -13,5 +13,10 @@
   "directory": "/workspaces/Chip8/build",
   "command": "/usr/bin/gcc   -g   -o CMakeFiles/chip8.dir/src/memory.c.o   -c /workspaces/Chip8/src/memory.c",
   "file": "/workspaces/Chip8/src/memory.c"
+},
+{
+  "directory": "/workspaces/Chip8/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/chip8.dir/src/parser.c.o   -c /workspaces/Chip8/src/parser.c",
+  "file": "/workspaces/Chip8/src/parser.c"
 }
 ]

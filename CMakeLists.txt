@@ -3,6 +3,8 @@ project(Chip8)
 
 set(SOURCES 
     src/main.c
+    src/instructions.c
+    src/memory.c
 )
 
 add_executable(chip8 ${SOURCES})

@@ -28,4 +28,6 @@ char* read_file(char* buffer) {
     fclose(file_p);
 }
 
+void write_to_file(size_t size, char* contents);
+
 #endif // FILEIO_H

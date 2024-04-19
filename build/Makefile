@@ -123,6 +123,33 @@ chip8/fast:
 	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/build
 .PHONY : chip8/fast
 
+src/instructions.o: src/instructions.c.o
+
+.PHONY : src/instructions.o
+
+# target to build an object file
+src/instructions.c.o:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/instructions.c.o
+.PHONY : src/instructions.c.o
+
+src/instructions.i: src/instructions.c.i
+
+.PHONY : src/instructions.i
+
+# target to preprocess a source file
+src/instructions.c.i:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/instructions.c.i
+.PHONY : src/instructions.c.i
+
+src/instructions.s: src/instructions.c.s
+
+.PHONY : src/instructions.s
+
+# target to generate assembly for a file
+src/instructions.c.s:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/instructions.c.s
+.PHONY : src/instructions.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -150,6 +177,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/memory.o: src/memory.c.o
+
+.PHONY : src/memory.o
+
+# target to build an object file
+src/memory.c.o:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/memory.c.o
+.PHONY : src/memory.c.o
+
+src/memory.i: src/memory.c.i
+
+.PHONY : src/memory.i
+
+# target to preprocess a source file
+src/memory.c.i:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/memory.c.i
+.PHONY : src/memory.c.i
+
+src/memory.s: src/memory.c.s
+
+.PHONY : src/memory.s
+
+# target to generate assembly for a file
+src/memory.c.s:
+	$(MAKE) -f CMakeFiles/chip8.dir/build.make CMakeFiles/chip8.dir/src/memory.c.s
+.PHONY : src/memory.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... chip8"
+	@echo "... src/instructions.o"
+	@echo "... src/instructions.i"
+	@echo "... src/instructions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/memory.o"
+	@echo "... src/memory.i"
+	@echo "... src/memory.s"
 .PHONY : help
 
 

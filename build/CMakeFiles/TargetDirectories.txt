@@ -1,0 +1,3 @@
+/workspaces/Chip8/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Chip8/build/CMakeFiles/edit_cache.dir
+/workspaces/Chip8/build/CMakeFiles/chip8.dir

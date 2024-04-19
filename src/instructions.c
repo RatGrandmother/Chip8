@@ -1,7 +1,5 @@
 #include "../include/instructions.h"
 
-
-
 // running bitwise instruction
 void run_bitwise_instruction(INSTRUCTIONS instruction, int Vx, int Vy) {
     switch (instruction)
